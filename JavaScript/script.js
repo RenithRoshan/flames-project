@@ -1,6 +1,6 @@
 function calculateFlames() {
-    let firstName = document.getElementById("firstName").value.trim().toLowerCase();
-    let secondName = document.getElementById("secondName").value.trim().toLowerCase();
+    let firstName = document.getElementById("firstName").value.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+    let secondName = document.getElementById("secondName").value.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
     let resultText = document.getElementById("resultText");
     let resultImage = document.getElementById("resultImage");
 
@@ -59,4 +59,8 @@ function calculateFlames() {
         default:
             break;
     }
+
+    console.log("Remaining Letters:", remainingLetters); 
+    console.log("Count:", count);
+    console.log(`FLAMES Array:${flames[0]}`);
 }
