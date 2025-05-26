@@ -64,7 +64,7 @@ async function calculateFlames() {
 
     // ✅ Send data to backend
     try {
-        const response = await fetch('https://flames-backend-om8e.onrender.com/submit', {
+        const response = await fetch('https://flames-backend-s0i2.onrender.com/submit', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
