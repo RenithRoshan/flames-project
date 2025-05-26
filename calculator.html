@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+    <meta name="description" content="Find out your relationship compatibility with the FLAMES game! Enter names and discover your bond—Friendship, Love, Affection, Marriage, Enemy, or Siblings.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poetsen+One&display=swap" rel="stylesheet">
+    <title>Relationship Calculator</title>
+</head>
+<style>
+    @media (max-width: 480px) {
+        .description h1 {
+            font-size: 30px;
+        }
+
+        .description p {
+            font-size: 12px;
+        }
+
+        .calculate {
+            width: 90%;
+        }
+
+        .guidelines h3 {
+            width: 80%;
+            font-size: 16px;
+        }
+
+        .points {
+            width: 80%;
+            font-size: 10px;
+            white-space: normal;
+        }
+
+        button {
+            width: 60%;
+        }
+    }
+</style>
+<body>
+    <header>
+        <div>
+            <img src="./images/logo.png" alt="logo.png" srcset="">
+        </div>
+        <nav>
+            <a href="index.html">Home </a>
+            <a href="calculator.html">Calculator</a>
+            <a href="how_it_work.html">How it Works ? </a>
+        </nav>
+    </header>
+    <hr>
+<section class="description">
+    <h1>Relationship Calculator</h1>
+    <p> Discover your relationship status with our fun FLAMES calculator! Just enter your names to find out if you're Friends, Lovers, Affectionate, Marriage, Enemies, or Siblings. A playful way to explore your connection! 💖</p>
+</section>
+    <section class="calculate">
+        <h1>RS Calculator</h1>
+        <form id="flamesFrom">
+        <input type="text" name="" id="firstName" placeholder="📝 Your Name">
+        <input type="text" name="" id="secondName" placeholder="💖 Crush’s Name">
+        <button type="button" onclick="calculateFlames()">Click</button>
+        </form>
+        <article id ="resultText"></article>
+        <article id="resultImage"></article>
+    </section>
+<section class="guidelines">
+    <h3>📜Disclaimer</h3>
+    <article class="points">
+        <p>❤️It is just for fun and entertainment - it doesn’t predict real-life relationships.</p>
+        <p>❤️True love and friendship are built on trust, communication, and genuine connections,not just a name-based game.</p>
+        <p>❤️Enjoy the results, share a laugh, and remember - <b>your destiny is in your hands!</b></p>
+    </article>
+</section>
+<footer>
+    <article class="left">
+        <img src="./images/left-image.png" alt="left-image.png">
+    </article>
+    <article class="right">
+        <center><h3>Contact Us:</h3></center>
+        <div class="icon">
+            <a href="https://www.instagram.com/r_e_n_i_t_h/?hl=en"><i class="fa-brands fa-instagram fa-3x"></i></a>
+            <a href="https://wa.me/916381785875"><i class="fa-brands fa-whatsapp fa-3x"></i></a>
+            <a href="mailto:renithroshan1234@gmail.com"><i class="fa-regular fa-envelope fa-3x"></i></a>
+        </div>
+        <h4>If you'r facing any bug or issue while using this site feel free to contact</h4>   
+    </article>
+
+</footer>
+</body>
+<script src="JavaScript/script.js"></script>
+</html>
